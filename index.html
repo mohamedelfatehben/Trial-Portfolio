@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fateh Bhd</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./imgs/my.png">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+</body>
+<div class="setting-box">
+    <div class="logo">
+        <img src="imgs/my.png" alt="">
+    </div>
+    <div class="gear-container">
+        <i class="fas fa-cog "></i>
+    </div>
+    <div class="settings-container">
+        <div class="option-box">
+            <h5>COLORS</h5>
+            <ul>
+                <li class="active" data-color="#03a9f4"></li>
+                <li data-color="#0cb1a0"></li>
+                <li data-color="#e64a19"></li>
+                <li data-color="#ba68c8"></li>
+                <li data-color="#E91E63"></li>
+            </ul>
+        </div>
+        <div class="option-box random-background">
+            <h5>Random Background</h5>
+            <span class="yes active" data-back="yes">Yes</span>
+            <span class="no" data-back="no">No</span>
+        </div>
+        <div class="option-box ">
+            <h5>Show Navigation Bullets</h5>
+            <span class="yes active" data-disp="block">Show</span>
+            <span class="no" data-disp="none">Hide</span>
+        </div>
+        <button>Reset Options</button>
+    </div>
+</div>
+<div class="nav-bullets">
+    <div class="bullet" data-section=".about-me">
+        <div class="tooltip">About</div>
+    </div>
+    <div class="bullet" data-section=".skills">
+        <div class="tooltip">Skills</div>
+    </div>
+    <div class="bullet" data-section=".features">
+        <div class="tooltip">Features</div>
+    </div>
+    <div class="bullet" data-section=".projects">
+        <div class="tooltip">Projects</div>
+    </div>
+    <div class="bullet" data-section=".contact">
+        <div class="tooltip">Contact</div>
+    </div>
+</div>
+<div class="landing">
+    <div class="overlay"></div>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="imgs/my.png" alt="">
+            </div>
+            <div class="links-container">
+                <div class="toggle-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="links">
+                    <li data-section=".about-me">About</li>
+                    <li data-section=".skills">Skills</li>
+                    <li data-section=".features">Features</li>
+                    <li data-section=".projects">Projects</li>
+                    <li data-section=".contact">Contact</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="introduction">
+        <h3>Hello <span></span></h3>
+        <h3>My name is, <span></span> </h3>
+        <h3>Fateh<span></span> </h3>
+    </div>
+</div>
+
+<section class="container" id="about">
+    <main class="about-me">
+        <div class="info-box">
+            <h2>About me</h2>
+            <p>Hi,my name is <strong>Mohamed Elfateh Bhd</strong>, I am a Web Designer, and I'm very passionate and
+                dedicated to my work.
+                With Some experience as a Web designer, I have acquired the skills and knowledge
+                necessary to make your website design responsive and attractive. I enjoy every step of the design
+                process, from discussion and
+                collaboration to concept and execution, but I find the most satisfaction in seeing your product
+                do everything for you the way you like.</p>
+        </div>
+        <div class="image-box">
+            <img src="imgs/kisspng-computer-programming-software-developer-software-e-internet-computer-technology-5a6acebec12a92.3136952715169491827912.png"
+                alt="">
+        </div>
+    </main>
+</section>
+
+<main class="skills" id="skills">
+    <section class="container">
+        <main>
+            <h2>My Skills</h2>
+            <p>I Can build projects with Html and CSS, and improve them with JavaScript so i can desgin responsive,
+                attractive
+                and animated Websites. </p>
+        </main>
+        <main>
+            <div class="skill-box">
+                <h4>Html</h4>
+                <div class="prog">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <h4>CSS</h4>
+                <div class="prog">
+                    <span data-progress=" 85%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <h4>JavaScript</h4>
+                <div class="prog">
+                    <span data-progress=" 65%"></span>
+                </div>
+            </div>
+        </main>
+    </section>
+</main>
+<section class="features" id="features">
+    <h2>FEATURES</h2>
+    <div class="container">
+        <main class="feat-box">
+            <img src="imgs/kisspng-business-presentation-information-clip-art-vector-business-office-meeting-5a7fdff50ac823.3997443815183298450442.png"
+                alt="">
+            <h4>A Professional Work</h4>
+            <p>I guarantee You a professional service that you'll be satisfed of</p>
+        </main>
+        <main class="feat-box">
+            <img src="imgs/kisspng-clock-computer-icons-5af614383c15e8.1137786615260764722461.png" alt="">
+            <h4>A Fast Delivery</h4>
+            <p>I Try Always To Finish the Work in the less Time i can</p>
+        </main>
+        <main class="feat-box">
+            <img src="imgs/kisspng-web-design-advertising-pay-per-click-customer-e-co-responsive-web-design-5a7327841da227.9210614715174961961214 (1).png"
+                alt="">
+            <h4>A Responsive Design</h4>
+            <p>I Can Design A Responsive Website compatible with all media</p>
+        </main>
+        <main class="feat-box">
+            <img src="imgs/5a29940f654cd9.4244987615126743194149.png" alt="">
+            <h4>Animated Design</h4>
+            <p> Animations to embellish your project.</p>
+        </main>
+        <main class="feat-box">
+            <img src="imgs/kisspng-incandescent-light-bulb-lamp-symbol-computer-icons-5b10c8f6b4de44.0925363815278266787409.png"
+                alt="">
+            <h4>The Best Ideas </h4>
+            <p>I Can Propose To you some ideas If You're Confused</p>
+        </main>
+        <main class="feat-box">
+            <img src="imgs/kisspng-partnership-computer-icons-clip-art-deal-with-it-5abce55a054350.3739112815223289220216.png"
+                alt="">
+            <h4>Happy Client</h4>
+            <p>Our Priority is to satisfy our clients and make them happy about their projects</p>
+        </main>
+    </div>
+</section>
+<section class="projects">
+    <h2>Projects</h2>
+    <div class="container">
+        <main>
+            <a href="https://fatehbhd123.github.io/clipboard-landing-page-master/" target="_blank">
+                <img src="imgs/clipboard-landing-page.jpg" alt="">
+                <div class="layer">
+                    <h4> Clipboard Landing
+                        Page</h4>
+                </div>
+            </a>
+        </main>
+        <main>
+            <a href="https://fatehbhd123.github.io/testimonials-grid-section-main/" target="_blank">
+                <img src="imgs/testimonials-grid-section-main.jpg" alt="">
+
+                <div class="layer">
+                    <h4> Testimonials Grid
+                        Section</h4>
+                </div>
+            </a>
+        </main>
+        <main>
+            <a href="https://fatehbhd123.github.io/four-card-feature-section-master/" target="_blank">
+                <img src="imgs/four card.jpg" alt="">
+                <div class="layer">
+                    <h4> Four Card Feature
+                        Section
+                    </h4>
+                </div>
+            </a>
+        </main>
+        <main>
+            <a href="https://fatehbhd123.github.io/huddle-landing-page-with-alternating-feature-blocks-master/"
+                target="_blank"> <img src="imgs/desktop-preview.jpg" alt="">
+                <div class="layer">
+                    <h4>
+                        Huddle Landing Page </h4>
+                </div>
+            </a>
+        </main>
+        <main>
+            <a href="https://fatehbhd123.github.io/3-column-preview-card-component-main/" target="_blank">
+                <img src="imgs/3 Colmun.jpg" alt="">
+                <div class="layer">
+                    <h4> 3 Column
+                        Preview Card Component</h4>
+                </div>
+            </a>
+        </main>
+        <main>
+
+            <a href="https://fatehbhd123.github.io/profile-card-component-main/" target="_blank">
+                <img src="imgs/profile.jpg" alt="">
+
+                <div class="layer">
+                    <h4>
+                        Profile Card Component</h4>
+
+                </div>
+            </a>
+        </main>
+    </div>
+</section>
+<section class="contact">
+    <div class="container">
+        <h2>Contact us</h2>
+        <form action="handler.php" method="post">
+            <main>
+                <input type="text" placeholder="Your Name" name="name" required>
+                <input type="text" placeholder="Your Phone" name="phone">
+                <input type="email" placeholder="Your Email" name="email" required>
+                <input type="text" placeholder="Subject" name="Subject">
+            </main>
+            <main>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <input type="submit" value="send">
+            </main>
+        </form>
+    </div>
+    <div class="overlay"></div>
+</section>
+<section class="footer">
+    <div>
+        <img src="imgs/my.png" alt="">
+        <div>
+            <a href="https://github.com/fatehbhd123" target="_blank"><i class="fab fa-github-square"></i></a>
+            <a href="https://facebook.com/fateh.bhd" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/_fatehbhd_/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+        </div>
+        <p>I'm Very Happy That you made it to here <i class="fas fa-heart"></i></p>
+    </div>
+</section>
+<script src="JS/master.js"></script>
+
+</html>
